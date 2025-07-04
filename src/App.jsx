@@ -1,10 +1,10 @@
 import { gsap } from "gsap";
-import scrollTrigger from "gsap/scrollTrigger";
-import splitText from "gsap/SplitText";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import SplitText from "gsap/SplitText";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 
-gsap.registerPlugin(scrollTrigger, splitText);
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const App = () => {
   return (
